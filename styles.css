@@ -1,0 +1,139 @@
+h1.first {
+    padding: 30px;
+    background-color:none;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration-color: floralwhite;
+    color: floralwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    p.second {
+        border: 5px ;
+        border: solid green;
+        background-color: rgb(216, 218, 217);
+        border-width: 1px;
+        width: 50%;
+        height: 50px;
+        border-radius: 20px;
+        }
+        body {
+            background-color: azure;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        table{
+            border-collapse:separate;
+            border-spacing: 20px 40px;
+            caption-side:bottom;
+            empty-cells: hide;
+        }
+        a:hover{
+            color: rgb(55, 0, 255);
+        }
+        a:link{
+            text-decoration: none;
+        }
+img{
+    float: right;
+}
+p {
+    color: azure;
+}   
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    padding: 30px;
+    background-color:none;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 30px;
+    text-decoration-color: rgb(23, 60, 226);
+    color: floralwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(sanjuandelsur.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    height: 20px;;
+}
+nav {
+  float: left;
+  width: 20%;
+  height: 400px; 
+  background:0vw
+  padding: 20px;
+  border-radius:12px;
+}
+/* Style the list inside the menu */
+nav ul {
+  list-style-type:none
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 10px;
+  width: 40%;
+  height: 400px; 
+  border-radius:12px;
+  border-color: ivory;
+  background-color: rgb(37, 126, 138);
+  text-decoration: blue;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  height: 300px; 
+  background:0vw;
+  padding: 20px;
+  color:unset;
+  border: radius 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(233, 227, 227);
+  }
+  /*positioning the manu*/
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(56, 56, 58);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(28, 95, 238);
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
